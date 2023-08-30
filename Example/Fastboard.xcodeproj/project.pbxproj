@@ -43,6 +43,13 @@
 		8AB02BBD27C4CE6A00792EF6 /* StorageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB02BBC27C4CE6A00792EF6 /* StorageItem.swift */; };
 		8AB02BBF27C4CF0500792EF6 /* storage.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AB02BBE27C4CF0500792EF6 /* storage.json */; };
 		8AE96586278842FC00722F89 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE96585278842FC00722F89 /* Utility.swift */; };
+		8AF716CA2A9D8FEB00D4EA74 /* HTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF716C92A9D8FEB00D4EA74 /* HTViewController.swift */; };
+		8AF716CD2A9D968700D4EA74 /* HTOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF716CC2A9D968700D4EA74 /* HTOverlay.swift */; };
+		8AF716D12A9DCA9100D4EA74 /* HTExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF716D02A9DCA9100D4EA74 /* HTExtension.swift */; };
+		8AF716D32A9DCAB600D4EA74 /* HTLocalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF716D22A9DCAB600D4EA74 /* HTLocalize.swift */; };
+		8AF716D52A9DCAD700D4EA74 /* HTExecutionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF716D42A9DCAD700D4EA74 /* HTExecutionItem.swift */; };
+		8AF716D72A9DCAFB00D4EA74 /* HTApplianceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF716D62A9DCAFB00D4EA74 /* HTApplianceItem.swift */; };
+		8AF716D92A9DCD3500D4EA74 /* HTConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF716D82A9DCD3500D4EA74 /* HTConst.swift */; };
 		8AFA91C9278C27A700E0CA61 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE96585278842FC00722F89 /* Utility.swift */; };
 		8AFA91CE278C280E00E0CA61 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA91CD278C280E00E0CA61 /* Utility.m */; };
 		8AFA91D5278C396D00E0CA61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -98,6 +105,13 @@
 		8AB02BBE27C4CF0500792EF6 /* storage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = storage.json; sourceTree = "<group>"; };
 		8AE965812788350000722F89 /* CustomFastboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFastboardView.swift; sourceTree = "<group>"; };
 		8AE96585278842FC00722F89 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		8AF716C92A9D8FEB00D4EA74 /* HTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTViewController.swift; sourceTree = "<group>"; };
+		8AF716CC2A9D968700D4EA74 /* HTOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTOverlay.swift; sourceTree = "<group>"; };
+		8AF716D02A9DCA9100D4EA74 /* HTExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTExtension.swift; sourceTree = "<group>"; };
+		8AF716D22A9DCAB600D4EA74 /* HTLocalize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTLocalize.swift; sourceTree = "<group>"; };
+		8AF716D42A9DCAD700D4EA74 /* HTExecutionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTExecutionItem.swift; sourceTree = "<group>"; };
+		8AF716D62A9DCAFB00D4EA74 /* HTApplianceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTApplianceItem.swift; sourceTree = "<group>"; };
+		8AF716D82A9DCD3500D4EA74 /* HTConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTConst.swift; sourceTree = "<group>"; };
 		8AFA91CC278C280E00E0CA61 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		8AFA91CD278C280E00E0CA61 /* Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		8AFA91E5278D86B100E0CA61 /* CustomFastboardOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFastboardOverlay.h; sourceTree = "<group>"; };
@@ -172,6 +186,7 @@
 				8A32FA7927C886AB00FA9367 /* UIColor+Convince.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				8AF716CF2A9DCA8B00D4EA74 /* HT */,
 				8AE96585278842FC00722F89 /* Utility.swift */,
 				8A310FC02787DEA800376BB5 /* ExampleTheme.swift */,
 				8AE965812788350000722F89 /* CustomFastboardView.swift */,
@@ -257,6 +272,20 @@
 				8AB02BBC27C4CE6A00792EF6 /* StorageItem.swift */,
 			);
 			name = MockStorage;
+			sourceTree = "<group>";
+		};
+		8AF716CF2A9DCA8B00D4EA74 /* HT */ = {
+			isa = PBXGroup;
+			children = (
+				8AF716C92A9D8FEB00D4EA74 /* HTViewController.swift */,
+				8AF716CC2A9D968700D4EA74 /* HTOverlay.swift */,
+				8AF716D82A9DCD3500D4EA74 /* HTConst.swift */,
+				8AF716D02A9DCA9100D4EA74 /* HTExtension.swift */,
+				8AF716D42A9DCAD700D4EA74 /* HTExecutionItem.swift */,
+				8AF716D62A9DCAFB00D4EA74 /* HTApplianceItem.swift */,
+				8AF716D22A9DCAB600D4EA74 /* HTLocalize.swift */,
+			);
+			name = HT;
 			sourceTree = "<group>";
 		};
 		CABC05EFD93E2733EB53095A /* Pods */ = {
@@ -402,7 +431,7 @@
 				"${BUILT_PRODUCTS_DIR}/Fastboard/Fastboard.framework",
 				"${BUILT_PRODUCTS_DIR}/NTLBridge/NTLBridge.framework",
 				"${BUILT_PRODUCTS_DIR}/Whiteboard/Whiteboard.framework",
-				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -410,7 +439,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fastboard.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NTLBridge.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Whiteboard.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,7 +502,7 @@
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/NTLBridge/NTLBridge.framework",
 				"${BUILT_PRODUCTS_DIR}/Whiteboard/Whiteboard.framework",
-				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -481,7 +510,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NTLBridge.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Whiteboard.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -496,16 +525,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AFA91E4278D85CB00E0CA61 /* CustomFastboardView.swift in Sources */,
+				8AF716D72A9DCAFB00D4EA74 /* HTApplianceItem.swift in Sources */,
 				8AE96586278842FC00722F89 /* Utility.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				8AB02B9C27C4756600792EF6 /* ExampleControlView.swift in Sources */,
 				8A310FC12787DEA800376BB5 /* ExampleTheme.swift in Sources */,
 				8AB02BA027C4758200792EF6 /* ControlCell.swift in Sources */,
 				8A28DD16278BC1BD00B5CB71 /* RoomInfo.swift in Sources */,
+				8AF716D32A9DCAB600D4EA74 /* HTLocalize.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				8AF716CA2A9D8FEB00D4EA74 /* HTViewController.swift in Sources */,
 				8A32FA7A27C886AB00FA9367 /* UIColor+Convince.swift in Sources */,
+				8AF716CD2A9D968700D4EA74 /* HTOverlay.swift in Sources */,
+				8AF716D92A9DCD3500D4EA74 /* HTConst.swift in Sources */,
 				8A32FA7827C885ED00FA9367 /* CustomColor.swift in Sources */,
 				8AB02BBD27C4CE6A00792EF6 /* StorageItem.swift in Sources */,
+				8AF716D12A9DCA9100D4EA74 /* HTExtension.swift in Sources */,
+				8AF716D52A9DCAD700D4EA74 /* HTExecutionItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
